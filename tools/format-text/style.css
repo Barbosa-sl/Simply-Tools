@@ -5,12 +5,13 @@
     margin: 0px; 
     text-decoration: none;
     border: 0px;
+    color: #1e1e2c;
 }
 
 .header {
     background-color: #1e1e2c;
 
-    height: 50vh;
+    height: 20vh;
     padding: 0px 30px;
 
     display: flex;
@@ -31,72 +32,51 @@
     color: #fafafa;
 }
 
-.datas {
-    padding: 0px 50px;
-
-    height: 50vh;
-    text-align: center;
-    color: #1e1e2c;
-    font-weight: 600;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.citedatas {
-    font-size: 2vh;
-}
-
-.icons {
-    height: 4vh;
-}
-
 .main {
-    background-color: #edf4ea;
-
     padding: 50px;
-
-    display: flex;
-    justify-content: center;
-    gap: 30px; 
-    flex-wrap: wrap;
+    background-color: #edf4ea;
 }
 
-.cards {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-
-    background-color: #fafafa;
-    padding: 20px;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.titlecards {
-    font-size: 1.5rem;
+.title {
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.descards {
-    font-size: 1rem;
+.formtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#texto {
+    background-color: #fafafa;
+
+    max-width: 80vw;
+
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    border: 2px solid #ef301c;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+
+    max-width: 80vw;
 }
 
 .button {
     background-color: transparent;
+    color: #1e1e2c;
 
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
 
-    width: 100px;
-    height: 30px;
+    width: autopx;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid #e7301c;
 
@@ -112,6 +92,35 @@
 
 .button:active {
     transform: scale(-0.001);
+}
+
+#resultado {
+    background-color: #fafafa;
+
+    max-width: 80vw;
+
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+    border: 2px solid #ef301c;
+}
+
+.tabela {
+    margin-top: 50px;
+    display: flex;
+}
+
+table {
+    width: 90vw;
+    border-radius: 10px;
+    border-collapse: collapse ;
+}
+
+th, td {
+    padding: 10px;
+    margin: 0px;
+    border: 2px solid #1e1e2c;
+
+    font-family: 'Montserrat Alternates', sans-serif;;
 }
 
 .footer {
@@ -139,7 +148,7 @@
     font-weight: bold;
 
     width: 100px;
-    height: 30px;
+    padding: 10px;
     border-radius: 5px;
     border: 2px solid #e73;
 
